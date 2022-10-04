@@ -1,18 +1,34 @@
+### 2022-10-05
+- [ ] pipex
+	- [ ] fix segfault error
+	- [ ] list delete func
+	- [ ] implement `heredoc`
+	- [ ] handling error
+	- [ ] check norm
+	- [ ] check leak
+
 ### 2022-10-04
-- [ ] pipex argv(cmd) parsing 처리하기
-	- [ ] argv를 ' '를 기준으로 split해서 list에 넣기.
-	- [ ] 리스트 만들기(prev를 쓸 이유는 없기 때문에 단방향 연결리스트
-		- [ ] insert함수
+- [X] for loop in fork에서 기본 로직과 pipex(execve)에서 동작하는 방식의 차이
+- [X] pipex argv(cmd) parsing 처리하기
+	- [X] argv를 ' '를 기준으로 split해서 list에 넣기.
+	- [X] 리스트 만들기(prev를 쓸 이유는 없기 때문에 단방향 연결리스트
+		- [X] insert함수
 		- [ ] all delete함수
-		- [ ] iterator
-- [ ] path도 리스트로 만들 필요가 있을까?
-	- [ ] 지금 구조를 보면, 항상 PWD가 먼저나온다는 가정이 있어서 바꾸는 게 좋다.
-- [ ] 링크 추가하기
+		- [X] iterator
+- [X] path도 리스트로 만들 필요가 있을까?
+	- [X] 지금 구조를 보면, 항상 PWD가 먼저나온다는 가정이 있어서 바꾸는 게 좋다.
+- [X] 링크 추가하기
 ```html
 <div align = "right">
 	<b><a href = "#Contents">🎈 contents</a></b>
 </div>
 [🎈리스트란](#리스트)
+```
+```c
+norminette규정으로 함수를 쪼개다가
+현재 segfault오류가 뜬다. 
+내일 고쳐야함.
+구체적으로 예외처리, 디테일, 설명부분도 신경쓰기.
 ```
  
 ------
