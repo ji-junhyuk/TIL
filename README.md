@@ -1,11 +1,46 @@
-### 2022-10-05
+### 2022-10-06
 - [ ] pipex
-	- [ ] fix segfault error
-	- [ ] list delete func
+	- [ ] heredoc
+	- [ ] Access error handling (실패해도 -1, 권한이 없을 때도 -1)
+	- [ ] code review받기
+
+### 2022-10-05
+- [O] pipex
+	- [X] fix segfault error
+	- [X] list delete func
 	- [ ] implement `heredoc`
-	- [ ] handling error
-	- [ ] check norm
-	- [ ] check leak
+	- [X] handling error
+	- [X] check norm
+	- [X] check leak
+- 의문
+```c
+while (--p_count >= 0)
+{
+	all_path = ft_strjoin(p_node->path, c_node->cmd[0]);
+	if (access(all_path, F_OK) == 0)
+	{
+		free(all_path);
+		return (0);
+	}
+	free(all_path);
+	p_node = p_node->next;
+}
+```
+	- access시스템 콜 실패했을 때 예외처리를 하려면 어떻게 해야할까? access함수는 권한 여부를 체크할 때 해당 권한이 없으면 -1을 리턴한다. access함수가 실패할 때도 -1을 리턴한다. 이 경우 실패할 때 예외처리를 못하는거 아닌가?
+	 
+- 신기했던 것
+	- pipe_tool->cmd 동적할당한 것을 execve로 하면 leak이 아니다. leak이 아닌가 순간 당황.
+```c
+pipe_tool->cmd = get_cmd(path_list, cmd_list, pipe_tool->i - 2);
+if (execve(pipe_tool->cmd, pipe_tool->c_node->cmd, 0) == -1)
+{
+	perror("execve");
+	exit(1);
+}
+```
+- 헷갈렸던 것
+	- list모든 원소 free할 때, list를 2차원으로 해야하는 지
+		 - 그럴 필요 없음.
 
 ### 2022-10-04
 - [X] for loop in fork에서 기본 로직과 pipex(execve)에서 동작하는 방식의 차이
