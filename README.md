@@ -1,7 +1,21 @@
+### 2022-10-07
+- [ ] pipex
+	- [ ] heredoc error 
+	- [ ] 뭐가 됐든 평가보면서 평가지보기
+```c
+heredoc이라는 임시 파일에는 쓰여지는데,
+pipe 자식 프로세스가 이를 읽어오질 못한다.
+그런데, 종료 후 다시 시작해서 heredoc을 작동해주기만 하면
+이전 프로세스에서 실행했던 게 그제서야 outfile에 담긴다.
+write가 쓰기는 하지만, 이를 실제로 파일에 쓰는 건
+뒤로 미루기 때문에 이를 grep해서 잡히는 게 없는 거 같기도 하고,
+잘 모르겠다.
+```
+
 ### 2022-10-06
 - [ ] pipex
-	- [ ] heredoc
-	- [ ] Access error handling (실패해도 -1, 권한이 없을 때도 -1)
+	- [X] heredoc
+	- [X] Access error handling (실패해도 -1, 권한이 없을 때도 -1)
 	- [ ] code review받기
 
 ### 2022-10-05
