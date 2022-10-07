@@ -1,10 +1,60 @@
+### 2022-10-08
+- [ ] 자식 구조이 파일을 읽고 dup하는 구조로 바꾸기
+- [ ] here_doc이면 here_doc만 검사하기(뒤에 인자처리 로직은 필요 없다)
+- [ ] 불필요한 부분 빼기
+
 ### 2022-10-07
-- [ ] pipex
-	- [ ] heredoc error 
-	- [ ] leaks error
-	- [ ] norm check
-	- [ ] error handling
-		- [ ] 서브젝트 보면서 다시 한번 점검해보고 평가받기.
+- [O] pipex
+	- [X] heredoc error 
+	- [X] leaks error
+	- [X] norm check
+	- [X] error handling
+		- [X] 서브젝트 보면서 다시 한번 점검해보고 평가받기.
+```c
+./pipex infile cmd cmd1 outfile
+```
+
+```bash
+처음에는 부모에서 파씽을 한 뒤, 인자가 적합하지 않은 게 있다면 
+아예 실행되지 않는 로직이 맞다고 생각했다. 
+실제 bash에서는 먼저 나온 인자가 적합하지 않아도 뒤에 인자를 실행한다.
+
+$ ls < infile | wc -l
+- infile이 없는 경우 zsh: no such file or directory: infile
+$ cmv < infile | wc -l
+- infile이 없는 경우: zsh: no such file or directory: infile
+       								0 
+- infile이 있는 경우: zsh: command not found: cmv
+									0
+$ cmv < infile | wd | ls
+- zsh: no such file or directory: infile
+- zsh: command not found: wd 
+- ls결과
+```
+- `실제 shell에서는 infile이 없으면 error를 출력하는 건 같지만, 뒤에 명령어도 실행`한다. 즉, infile에서 파일을 여는 작업부터 자식프로세스에서 하게 된다.
+- 현재 구조에서는 부모 프로세스에서 path, cmd parsing을 해둔 후에 파일을 연다. 파일이 존재하지 않을 경우 바로 exit한다.
+	- `부모 프로세스에서 다 parsing을 할 필요가 있을까?` 부모프로세스가 무거우면 execve로 더 크게 메모리를 복사한다. 부모는 모든 자식에게 필요한 만큼만 제공하고, 나머지는 자식 쪽에서 처리하는 것이 낫다.
+	- 부모가 모든 걸 parsing하고 fork를 진행하면, 메모리는 커지지만 시간은 빠르다. 부모에서 자식에게 필요한 명령어를 mapping 시킬 수 있으면 trade-off아닐까? 근데, 파이프가 여러개 들어오고 계속해서 fork를 한다고 생각하면, 부모는 최대한 가볍게 가져가는 것이 옳다.
+	 
+```c
+fork();
+1. 첫번째 자식에서 파일을 연다. (infile -> CMD)
+2. 나머지 자식 -> 부모가 PATH해둔 결과를 가지고 본인의 CMD가 적합한지 찾는다. 적합하다면 실행, 아니라면 Error.
+3. 가장 끝에 자식은 파일을 연다. (CMD -> outfile)
+4. 부모프로세스는 가장 끝에 자식만 기다린다.
+```
+ 
+- `추가적인 의문`
+	- 파이프 2쌍을 쓸 필요가 있을까?
+	- 이전 자식은 다음 자식에게 stream을 보내기만 하지, stream을 다시 받지 않는다. 내 생각에 pipe는 1쌍이면 충분하다.
+	
+- 평가에서 틀린 부분
+	- infile이 없거나 infile에 읽기 권한이 없을 때 에러를 출력해야 한다.
+	- 나머지는 정상작동.
+```c
+pipe_tool->fdin = open(argv[1], O_RDWR, 00666);
+pipe_tool->fdin = open(argv[1], O_RDONLY);
+```
 
 - 문제 해결
 ```c
