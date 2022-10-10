@@ -1,3 +1,58 @@
+### 2022-10-11
+- [ ] 부모는 fork(), 자식이 파일을 열고 처리하는 구조
+- [ ] 2가지 구조 가능
+	- [ ] 1. 부모가 command갯수만큼 파이프를 열고 처리하는 구조.
+		cf. https://stackoverflow.com/questions/8389033/implementation-of-multiple-pipes-in-c
+		cf. http://www.cs.loyola.edu/~jglenn/702/S2005/Examples/dup2.html
+	- [ ] 2. 부모가 파이프를 한 쌍을 열고, 자식에서 처리하는 구조. (현 구조랑 비슷한 이 구조로 진행하고 싶다)
+	(다음 자식은 이전 자식이 파이프에 쓴 내용을 읽어올 수 있어야 하는데, 이 처리가 안됌)
+```c
+int main(int argc, char *argv[])
+{
+	pid_t pid;
+	char *exec_argv[] = {"ls", "-al", 0};
+	char *exec_argv2[] = {"grep", "hello", 0};
+	int fdin;
+	int fdout;
+
+	int cnt = -1;
+	int fdpipe[2];
+	while (++cnt < 2)
+	{
+		printf("parent: helloda\n");
+		if (cnt == 1)
+			fdout = open("outfile", O_CREAT | O_WRONLY | O_APPEND, 00666);
+		else
+			pipe(fdpipe);
+		pid = fork();
+		if (pid == 0)
+		{
+			if (cnt == 0)
+			{
+				fdin = open("infile", O_WRONLY, 00666);
+				dup2(fdpipe[0], 0);
+				close(fdpipe[0]);
+				dup2(fdpipe[1], 1);
+				close(fdpipe[1]);
+				execve("/usr/bin/grep", exec_argv2, 0);
+			}
+			if (cnt == 1)
+			{
+			/*
+				이전 파이프에 쓴 내용을 읽어오고,
+				현재 파이프에 새로운 내용을 쓴다.
+				(다음 파이프는 현재 파이프에 새로운 내용을 읽어와야됌)
+			*/
+				dup2(fdpipe[0], 0); // 이렇게 하면 입력을 전 파이프에서 받아오지 못한다. 그림 그려보면 알 수 있을듯?
+				dup2(fdout, 1);
+				execve("/usr/bin/grep", exec_argv2, 0);
+			}
+		}
+	}
+	waitpid(pid, NULL, 0);
+}
+```
+
 ### 2022-10-08
 - [ ] 자식 구조이 파일을 읽고 dup하는 구조로 바꾸기
 - [ ] here_doc이면 here_doc만 검사하기(뒤에 인자처리 로직은 필요 없다)
