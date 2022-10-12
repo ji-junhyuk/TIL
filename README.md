@@ -1,5 +1,11 @@
-### 2022-10-11
+### 2022-10-12
+- pipex
+	 - [X] here_doc일 때, 입력을 못받아오는 문제.
+	 - pipex, fdtable 부모프로세스 close부분 해결.
+	 - lsof -p 명령어
+	 - existing command binary가 실행파일을 말한다면, PATH에 PWD도 파씽해주어야 한다.
 
+### 2022-10-11
 - 구조
     - 부모는 fork만 한다.
     - 매번 한 쌍의 파이프만 만들어준다.
