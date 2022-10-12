@@ -1,10 +1,16 @@
+### 2022-10-13
+- TDL
+	- [ ] graphic과제 정해서 subject 정리
+ 
+---
 ### 2022-10-12
 - pipex
 	 - [X] here_doc일 때, 입력을 못받아오는 문제.
-	 - pipex, fdtable 부모프로세스 close부분 해결.
+	 - [X] here_doc일 때, 개행을 자르고 받아오는 문제
+	 - [X] pipex, fdtable 부모프로세스 close부분.
 	 - lsof -p 명령어
 	 - existing command binary가 실행파일을 말한다면, PATH에 PWD도 파씽해주어야 한다.
-
+---
 ### 2022-10-11
 - 구조
     - 부모는 fork만 한다.
