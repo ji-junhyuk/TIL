@@ -1,7 +1,12 @@
 ### 2022-10-13
 - TDL
 	- [ ] graphic과제 정해서 subject 정리
- 
+	- [X] Makefile
+		- [X] 왜 all_check, bonus_check을 써야 하는가?, phony
+		- [X] phony가 없고, all과 fclean이라는 파일이 있을 때 왜 all은 실행되지만 fclean은 실행되지 않을까?
+		- [X] 모든 소스파일들은 헤더파일의 상대 경로를 가지고 있다. 헤더파일이 변경되었을 때 일일이 수정해야 하는가? 
+		- [X] 헤더 파일의 경로를 수정하면 현재 사용하는 NVIM에서 syntax error가 생긴다.
+
 ---
 ### 2022-10-12
 - pipex
