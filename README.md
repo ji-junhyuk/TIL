@@ -1,3 +1,16 @@
+### 2022-10-15
+- FDF
+	- 
+ 
+### 2022-10-14
+- FDF 환경 설정
+	- mlx library 
+		- https://github.com/codam-coding-college/MLX42
+		- https://harm-smits.github.io/42docs/
+	- [X] Makefile mlx library 사용해보기
+- raspberry pi4 시작하기
+
+
 ### 2022-10-13
 - TDL
 	- [ ] graphic과제 정해서 subject 정리
