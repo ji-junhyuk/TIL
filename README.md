@@ -1,16 +1,34 @@
+### 2022-10-19
+- algo
+	- [ ] 1759(g4)
+- fdf
+	- [ ] MLX42 docs 읽기
+	- [ ] 점과 점 연결하기
+	- [ ] 삼각형 그리기
+	- [ ] 입체적으록 그리기
+- os
+	- [ ] 파일시스템 3
+- kernel
+	- [ ] ftrace
+---
 ### 2022-10-18
 - algo
-	- [ ] 6603(s2)
+	- [X] 6603(s2)
 - fdf
 	- [ ] MLX42 docs 쭉 읽기
+	- [X] 무지개 원 그리기
 	- [ ] 점과 점을 연결해보기
 	- [ ] 삼각형 그리기
 	- [ ] 입체적으로 그리기
 - os
-	- [ ] 파일시스템 2
+	- [o] 파일시스템 2
+		- [X] file system에서 hash table 어떻게 구현할까?(간단하게)
+		- [X] page in, out 등 page_cache를 알아보는 명령어
 - kernel 
-  	- [ ] printk(kernel console)
+  	- [X] printk(kernel console)
+	- [X] dump_stack
 
+---
 ### 2022-10-17
 - algo
 	- [X] 15665(s2)
@@ -38,6 +56,7 @@
 		- use patch code
 		- use ftrace
 
+---
 ### 2022-10-17
 - algo
 	- [X] 15665(s2)
@@ -61,6 +80,7 @@
 - Kernel
 	- [ ] 3장 ~
 
+---
 ### 2022-10-16
 - algo
 	- [ ] 
