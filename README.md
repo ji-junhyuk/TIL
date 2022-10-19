@@ -1,8 +1,19 @@
+### 2022-10-20
+- algo 
+	- [ ] 1941(g3)
+- fdf
+	- [ ] 코드 작성 시작!
+	- [ ] 회전변환 + 유도 과정 공책에 정리
+- os
+	- [ ] 입출력 시스템1
+- kernel
+	- [ ] ftrace 분석
+
 ### 2022-10-19
 - algo
 	- [X] 1759(g4)
 - fdf
-	- [ ] MLX42 docs 읽기
+	- [.] MLX42 docs 읽기
 		- [ ] Try making textures by generating the image in loops.
 		- [ ] make add_shade func 
 			- accepts a double (distance) and a int (color) as arguments, 0 will add no shading to the color, whilst 1 will make the color completely dark. 0.5 will dim it halfway, and .25 a quarter way. 
@@ -10,14 +21,22 @@
 			- accepts a int (color) as argument and that will invert the color accordingly.
 		- [ ] esc를 누르면 창 꺼지게 하기
 		- [ ] window is resized, you should print something in your terminal.
-		- [ ] red	_
+		- [ ] X를 누르면 창 꺼지게 하기
+		- [ ] ~초 이상 누르면 터미널에 무언가를 출력하기
+		- [ ] 마우스가 창에 들어가면 hello 출력하기, 나갈 때 bye 출력하기
+		- [X] a key is pressed, it will print the key code in the terminal.
+		- [ ] 마우스를 움직이면, 터미널에 현재 마우스 좌표 출력하기
+		- [ ] a mouse is pressed, it will print the angle at which it moved over the window to the terminal.
+		- [ ] w a s d 를 이용해 화면에서 움직일 수 있는 원
+		- [ ] 루프에서 만든 이전의 작은 원형 게임을 가져와서 mlx_sync를 렌더링에 추가하십시오!
+
 	- [ ] 점과 점 연결하기
 	- [ ] 삼각형 그리기
 	- [ ] 입체적으록 그리기
 - os
-	- [ ] 파일시스템 3
+	- [X] 파일시스템 3
 - kernel
-	- [ ] ftrace
+	- [X] ftrace
 ---
 
 ### 2022-10-18
