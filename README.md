@@ -1,8 +1,16 @@
 ### 2022-10-19
 - algo
-	- [ ] 1759(g4)
+	- [X] 1759(g4)
 - fdf
 	- [ ] MLX42 docs 읽기
+		- [ ] Try making textures by generating the image in loops.
+		- [ ] make add_shade func 
+			- accepts a double (distance) and a int (color) as arguments, 0 will add no shading to the color, whilst 1 will make the color completely dark. 0.5 will dim it halfway, and .25 a quarter way. 
+		- [ ] make get_opposite func
+			- accepts a int (color) as argument and that will invert the color accordingly.
+		- [ ] esc를 누르면 창 꺼지게 하기
+		- [ ] window is resized, you should print something in your terminal.
+		- [ ] red	_
 	- [ ] 점과 점 연결하기
 	- [ ] 삼각형 그리기
 	- [ ] 입체적으록 그리기
@@ -11,6 +19,7 @@
 - kernel
 	- [ ] ftrace
 ---
+
 ### 2022-10-18
 - algo
 	- [X] 6603(s2)
