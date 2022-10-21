@@ -1,14 +1,48 @@
+### 2022-10-22
+- algo
+	- [ ] 1941(g3)
+- OS
+	- OS 다시 덧칠하기
+		- https://www.youtube.com/watch?v=l5EmMAKiDlg&list=PLmQBKYly8OsWe1mNpYhZfBRL0mOGu0dEX 유튜브강의
+		- https://pages.cs.wisc.edu/~remzi/OSTEP/Korean/ pdf자료 
+		- 공룡책 pdf
+		- blog만들어서 본격적으로 해보자!
+			- [ ] github.io 로 하고 싶고,
+			- [ ] 여러 컴퓨터에서 포스팅할 수 있게 docker 사용법 알고 싶다.
+				- [ ] 도커 setting -> blog 첫포스팅 할 수 있게 공부
+
+---
+### 2022-10-21
+- algo
+	- [X] 1941(g3)
+		- [X] 굳이 bfs로 해야하나? 생각해서 로직을 짜봤는데, 결국 모두가 인접해야 한다는 조건을 맞추는 게 bfs가 가장 간단하다. 
+- fdf
+	- 파싱 마무리
+		- [ ] convert_hex_to_dec() 함수 구현
+		- [ ] memory leaks check
+		- [ ] system call error handling
+	- [ ] isometric projection.
+	- [ ] draw line(dda or 브레젠험 or 직선의방정식)
+- os
+	- [ ] 입출력 시스템2
+- kernel
+
+---
 ### 2022-10-20
 - algo 
 	- [ ] 1941(g3)
+		- bfs와 dfs를 동시에 하는 건 굉장히 복잡하다.
+		- dfs로 모든 순열을 찾은 뒤에 bfs로 연결되어 있는지 검사하는 로직으로 한다.
 - fdf
-	- [ ] 코드 작성 시작!
+	- [X] 코드 작성 시작!
+		- fdf parsing
 	- [ ] 회전변환 + 유도 과정 공책에 정리
 - os
-	- [ ] 입출력 시스템1
+	- [X] 입출력 시스템1
 - kernel
-	- [ ] ftrace 분석
+	- [X] ftrace 분석
 
+---
 ### 2022-10-19
 - algo
 	- [X] 1759(g4)
@@ -37,8 +71,8 @@
 	- [X] 파일시스템 3
 - kernel
 	- [X] ftrace
----
 
+---
 ### 2022-10-18
 - algo
 	- [X] 6603(s2)
