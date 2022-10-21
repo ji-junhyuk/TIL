@@ -18,9 +18,9 @@
 		- [X] 굳이 bfs로 해야하나? 생각해서 로직을 짜봤는데, 결국 모두가 인접해야 한다는 조건을 맞추는 게 bfs가 가장 간단하다. 
 - fdf
 	- 파싱 마무리
-		- [ ] convert_hex_to_dec() 함수 구현
-		- [ ] memory leaks check
-		- [ ] system call error handling
+		- [X] convert_hex_to_dec() 함수 구현
+		- [X] memory leaks check
+		- [X] system call error handling
 	- [ ] isometric projection.
 	- [ ] draw line(dda or 브레젠험 or 직선의방정식)
 - os
