@@ -1,6 +1,8 @@
 ### 2022-10-22
 - algo
 	- [ ] 1941(g3)
+- fdf
+	- [ ] isometric projection.
 - OS
 	- OS 다시 덧칠하기
 		- https://www.youtube.com/watch?v=l5EmMAKiDlg&list=PLmQBKYly8OsWe1mNpYhZfBRL0mOGu0dEX 유튜브강의
@@ -10,6 +12,9 @@
 			- [ ] github.io 로 하고 싶고,
 			- [ ] 여러 컴퓨터에서 포스팅할 수 있게 docker 사용법 알고 싶다.
 				- [ ] 도커 setting -> blog 첫포스팅 할 수 있게 공부
+	- [ ] 입출력 시스템2
+- [ ] kernel
+	- [ ] 프로세스~
 
 ---
 ### 2022-10-21
@@ -18,9 +23,9 @@
 		- [X] 굳이 bfs로 해야하나? 생각해서 로직을 짜봤는데, 결국 모두가 인접해야 한다는 조건을 맞추는 게 bfs가 가장 간단하다. 
 - fdf
 	- 파싱 마무리
-		- [ ] convert_hex_to_dec() 함수 구현
-		- [ ] memory leaks check
-		- [ ] system call error handling
+		- [X] convert_hex_to_dec() 함수 구현
+		- [X] memory leaks check
+		- [X] system call error handling
 	- [ ] isometric projection.
 	- [ ] draw line(dda or 브레젠험 or 직선의방정식)
 - os
