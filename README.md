@@ -1,6 +1,10 @@
-### 2022-10-22
+### 2022-10-24
 - algo
-	- [ ] 1941(g3)
+	- 
+
+### 2022-10-23
+- algo
+	- [X] 1941(g3)
 - fdf
 	- [ ] isometric projection.
 - OS
@@ -8,13 +12,17 @@
 		- https://www.youtube.com/watch?v=l5EmMAKiDlg&list=PLmQBKYly8OsWe1mNpYhZfBRL0mOGu0dEX 유튜브강의
 		- https://pages.cs.wisc.edu/~remzi/OSTEP/Korean/ pdf자료 
 		- 공룡책 pdf
-		- blog만들어서 본격적으로 해보자!
+		- blog만들어서 본격적으로 해보자! (fdf과제 끝내고 틈나는 대로)
 			- [ ] github.io 로 하고 싶고,
 			- [ ] 여러 컴퓨터에서 포스팅할 수 있게 docker 사용법 알고 싶다.
 				- [ ] 도커 setting -> blog 첫포스팅 할 수 있게 공부
 	- [ ] 입출력 시스템2
 - [ ] kernel
-	- [ ] 프로세스~
+	- [X] 프로세스~
+
+---
+### 2022-10-22
+- [X] 잔나 결혼식
 
 ---
 ### 2022-10-21
