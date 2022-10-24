@@ -2,13 +2,24 @@
 - algo
 	- [ ] 15683(g3)
 - fdf
-	- [ ] 
+	- [ ] key_hook 
+		  - [ ] move
+		  - [ ] rotate
+		  - [ ] refactoring
+		  - [ ] 설명 준비
 - OS
 	- [ ] 
+
 ---
 ### 2022-10-24
 - algo
 	- [X] 16987(s1)
+- fdf
+	- [X] fdf 과제 
+		- [X] isometric 적용 OK
+		- [X] 브레젠험 적용 OK
+- OS
+	- [X] kernel
 
 ---
 ### 2022-10-23
