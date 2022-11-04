@@ -1,15 +1,28 @@
+### 22.11.05(토)
+- algo
+	- [ ] simul
+- network 
+	- [ ] 6강 전송계층
+	- [ ] 널널한 개발자 강의 보기
+- java
+	- [ ] 우테코 코드 작성
+- kernel 
+	- [ ] 커널 내부에서 프로세스 생성하는 흐름
+	- [ ] 다음 강의 
+	 
 ### 22.11.04(금)
 - algo
 	- [ ] simul
 - 42
-	- [ ] token 구조체 
-	- [ ] tokenize 코드 작성 시작! 
+	- [X] token 구조체 
+	- [X] tokenize 코드 작성 시작! 
 - network
-	- 
+	- [ ] 6강 전송계층2
 - java
-	- 
+	- [X] 우테코 README 정리
 - kernel
 	- [ ] 커널 내부에서 프로세스를 생성하는 흐름
+
 ### 22.11.03(목)
 - algo
 	- [X] simulation 문제 다시 시작!
@@ -34,7 +47,6 @@
 	- [X] 4강. 애플리케이션 레이어 2
 - kernel
 	- [X] 커널스레드란, 커널스레드 종류
-
 - ctrl shifh H : 한번에 바꾸기
 - ctrl option 방향키
 - option cmd 방향
