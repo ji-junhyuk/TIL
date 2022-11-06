@@ -1,5 +1,7 @@
 ### 22.11.06(일)
-- AWS CLOUD GAME
+- [X] AWS CLOUD GAME
+<img width="797" alt="Screen Shot 2022-11-06 at 3 35 00 PM" src="https://user-images.githubusercontent.com/67992469/200157851-6ac8ac47-1850-4690-bff1-f2024f077337.png">
+
 - algo
 	- [ ] simul
 - network
