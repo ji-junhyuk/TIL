@@ -1,3 +1,19 @@
+### 22.11.07(월)
+- algo
+	- [ ] simul
+- 42
+	- [ ] Minishell study
+		- [ ] 여태까지 한 거 문서로 예쁘게 정리(틈틈이)
+		- [ ] tokenize 구현
+- network
+	- [ ] 전송계층 3
+	- [ ] IP주소 체계
+- java
+	- [ ] 우테코 TDD 시작
+- kernel 
+  	- [ ] 프로세스 간의 관계(연결리스트)
+		
+
 ### 22.11.06(일)
 - [X] AWS CLOUD GAME
 <img width="797" alt="Screen Shot 2022-11-06 at 3 35 00 PM" src="https://user-images.githubusercontent.com/67992469/200157851-6ac8ac47-1850-4690-bff1-f2024f077337.png">
@@ -6,10 +22,11 @@
 	- [ ] simul
 - network
 	- [ ] 널널한 개발자 강의 2개 보기
+		- [X] host, switch, network 관계
 - java
 	- [ ] 우테코 TDD시작
 - kernel
-	- [ ] kernel 하나 보기
+	- [X] task 디스크립터, 프로세스 식별 코드
 
 ### 22.11.05(토)
 - algo
