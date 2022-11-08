@@ -1,19 +1,56 @@
+### 22.11.09(수)
+- algo
+	- [ ] simulation 15683
+- 42
+	- [ ] Minishell
+		- [ ] 여태까지 한 거 정리하고, 앞으로 할 것들 문서화 틈틈이 계속! 
+- network
+	- [ ] 전송계층 4
+	- [ ] 스위치가 하는 일이 무엇인지
+- kernel
+	- [ ] threadinfo 구조체
+
+### 22.11.08(화)
+- java
+	- [X] 우테코
+- network
+	- [X] 전송계층 3
+	- [X] port번호
+- kernel
+	- [X] 프로세스 실행시각 정보
+- raspberrypi bluetooth 연결, 해제, 제거 터미널에서 하기(오류 해결)
+	 
 ### 22.11.07(월)
 - algo
 	- [ ] simul
 - 42
 	- [ ] Minishell study
 		- [ ] 여태까지 한 거 문서로 예쁘게 정리(틈틈이)
-		- [ ] tokenize 구현
+		- [X] tokenize 구현
 - network
 	- [ ] 전송계층 3
-	- [ ] IP주소 체계
+	- [X] IP주소 체계
 - java
 	- [ ] 우테코 TDD 시작
 - kernel 
-  	- [ ] 프로세스 간의 관계(연결리스트)
+  	- [X] 프로세스 간의 관계(연결리스트)
+-  예외 처리
+	- [X] bool is_pair_bracket(const char *line)
+ 	- [X] bool is_correct_pair(const char *line)
+- [ ] 토큰화
+- [ ] 환경변수 확장 (getenv, opendir, readdir)
+- [ ] wait, waitpid, wait3, wait4
+- [ ] getcwd, chdir
+- [ ] stat, lstat, fstat
+- [ ] opendir, readdir, closedir
+- [ ] isatty, ttyname, ttyslot, ioctl
+- [ ] getenv
+- [ ] tcsetattr, tcgetattr, tgetent, tgetflag, tgetnum, tgetstr, togoto, tputs
 		
-
+// command shift e, spacebar
+// f12 ctrl b
+// control fn1 esc terminal 
+23
 ### 22.11.06(일)
 - [X] AWS CLOUD GAME
 <img width="797" alt="Screen Shot 2022-11-06 at 3 35 00 PM" src="https://user-images.githubusercontent.com/67992469/200157851-6ac8ac47-1850-4690-bff1-f2024f077337.png">
