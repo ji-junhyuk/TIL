@@ -1,14 +1,36 @@
-### 22.11.09(수)
+### 22.11.10
 - algo
-	- [ ] simulation 15683
+	- [ ] simultation 15683, review
 - 42
 	- [ ] Minishell
-		- [ ] 여태까지 한 거 정리하고, 앞으로 할 것들 문서화 틈틈이 계속! 
+		- [ ] 
+		- [ ] 문서화 계속
+			- [ ] 날짜별 처리한 것들 정리.
+	- [ ] FDF 컴파일 되게 하기
+	- [ ] pipex 제대로 되게 하기
 - network
-	- [ ] 전송계층 4
-	- [ ] 스위치가 하는 일이 무엇인지
+	- [ ] 전송계층 5
+	- [ ] 데이터 전송 단위
 - kernel
-	- [ ] threadinfo 구조체
+	- [ ] thread_info 구조체 분석
+
+### 22.11.09(수)
+- algo
+	- [X] simulation 15683
+- 42
+	- [X] Minishell
+		- [X] 여태까지 한 거 정리하고, 앞으로 할 것들 문서화 틈틈이 계속! 
+		- [X] execute, SIGPIPE 흐름 정리.
+			- 구조 수정
+				- yes | head -2 : 해당 케이스를 잡기 위해 마지막 command가 끝나기만을 기다림 -> wait(마지막 pid, 0);
+				- 해당 로직을 -> 모든 커맨드가 끝날 때까지 기다림(case: sleep 3 | sleep 1)
+					- 그렇다면, yes | head -2는 어떻게 처리하나?
+						- yes를 SIGPIPE로 종료시킴. (reader를 모두 닫아주면, 해당 프로세스가 종료된다)
+- network
+	- [X] 전송계층 4
+	- [X] 스위치가 하는 일이 무엇인지
+- kernel
+	- [X] threadinfo 구조체
 
 ### 22.11.08(화)
 - java
