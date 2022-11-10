@@ -1,18 +1,35 @@
-### 22.11.10
+### 22.11.11(금)
+- [ ] 성적,졸업증명서 발급하기. (내일 이것만!!)
+- [ ] 등기보내기
 - algo
 	- [ ] simultation 15683, review
 - 42
 	- [ ] Minishell
-		- [ ] 
-		- [ ] 문서화 계속
+		- [ ] Minishell todolist
+		- [ ] 핵심 로직 문서화 
+	- [ ] FDF
+	- [ ] pipex
+- network
+	- [ ] 전송계층 6
+	- [ ] 네트워크 인터페이스 선택원리와 기준
+- kernel
+	- [ ] thread_info 구조체 주소위치 찾기
+
+### 22.11.10(목)
+- algo
+	- [X] simultation 15683, review
+- 42
+	- [ ] Minishell
+		- [X] make todolist
+		- [X] 문서화 계속
 			- [ ] 날짜별 처리한 것들 정리.
 	- [ ] FDF 컴파일 되게 하기
 	- [ ] pipex 제대로 되게 하기
 - network
-	- [ ] 전송계층 5
-	- [ ] 데이터 전송 단위
+	- [X] 전송계층 5
+	- [X] 데이터 전송 단위
 - kernel
-	- [ ] thread_info 구조체 분석
+	- [X] thread_info 구조체 분석
 
 ### 22.11.09(수)
 - algo
