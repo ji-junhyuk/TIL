@@ -1,19 +1,30 @@
+### 22.11.12(토)
+- algo
+	- [ ] LG CNS 
+- network
+	- [ ] 전송계층 7
+	- [ ] 웹 서비스 1
+- java
+	- [ ] [우테코 lotto]
+- kernel
+	- [ ] 컨텍스트 스위칭1
+
 ### 22.11.11(금)
-- [ ] 성적,졸업증명서 발급하기. (내일 이것만!!)
+- [X] 성적,졸업증명서 발급하기. (내일 이것만!!)
 - [ ] 등기보내기
 - algo
-	- [ ] simultation 15683, review
+	- [X] simultation 15683, review
 - 42
-	- [ ] Minishell
-		- [ ] Minishell todolist
-		- [ ] 핵심 로직 문서화 
-	- [ ] FDF
-	- [ ] pipex
+	- [o] Minishell
+		- [X] Minishell todolist
+		- [X] 핵심 로직 문서화 
+	- [X] FDF
+	- [X] pipex
 - network
-	- [ ] 전송계층 6
-	- [ ] 네트워크 인터페이스 선택원리와 기준
+	- [X] 전송계층 6
+	- [X] 네트워크 인터페이스 선택원리와 기준
 - kernel
-	- [ ] thread_info 구조체 주소위치 찾기
+	- [X] thread_info 구조체 주소위치 찾기
 
 ### 22.11.10(목)
 - algo
