@@ -1,15 +1,33 @@
 ### 리드미를 작성하라
 
+### 22.11.22(화)
+- algo
+	- [ ] simultation 2048
+- network
+	- [ ] 레이어 계층 3
+	- [ ] 웹 서비스 1
+- kernel
+	- [ ] thread_info 구조체 초기화 코드
+
+### 22.11.21(월)
+- algo
+	- [ ] simulation 2048
+- network
+	- [X] 레이어 계층 2  
+	- [ ] 웹 서비스 1
+- kernel
+	- [X] cpu 필드
+
 ### 22.11.16(수)
 - algo
-	- [ ] simulation, 오고 가며 꼭!
+	- [X] simulation, 오고 가며 꼭!
 - network
-	- [ ] 전송계층
+	- [X] 전송계층
 	- [ ] 웹 서비스 1
 - Minishell
-	- [ ] expand
+	- [X] expand
 - kernel
-	- [ ] 컨텍스트 스위칭1
+	- [X] 컨텍스트 스위칭1
 
 ### 22.11.13(일) ~ 22.11.15(월)
 - 미니쉘, 우테코 
