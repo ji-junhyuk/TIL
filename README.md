@@ -1,16 +1,29 @@
 ### 리드미를 작성하라
 
+### 22.11.26(토)
+- algo
+	- [ ] 톱니바퀴
+	- [ ] devmatching3
+	- [ ] 2022, devmatching coding test
+- minishell
+	- [ ] review
+- network
+	- [ ] 무선 이동 네트워크3
+	- [ ] 패킷의 생성 원리와 캡슐화
+- kernel
+	- [ ] 인터럽트
 ### 22.11.25(금)
 - algo
 	- [ ] 톱니바퀴(g5)
+	- devmatching 1 2 
 - 42
-	- [ ] exam03
-	- [ ] 평가다니기
+	- [X] exam03
+	- [X] 평가다니기
 - network
 	- [ ] 무선 이동 네트워크3
-	- [ ] LAN, WAN
+	- [X] LAN, WAN
 - kernel
-	- [ ] 인터럽트 시작
+	- [X] 인터럽트 시작
 
 ### 22.11.24(목)
 - algo
