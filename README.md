@@ -1,10 +1,8 @@
 ### 리드미를 작성하라
 
-### 22.11.26(토)
+### 22.11.27(일)
 - algo
 	- [ ] 톱니바퀴
-	- [ ] devmatching3
-	- [ ] 2022, devmatching coding test
 - minishell
 	- [ ] review
 - network
@@ -12,6 +10,24 @@
 	- [ ] 패킷의 생성 원리와 캡슐화
 - kernel
 	- [ ] 인터럽트
+
+### 22.11.26(토)
+```
+알고리즘을 시간 정해두고 풀어야지 하다가도
+마저 풀고 싶어서 붙잡다가 하루가 다가버림.
+```
+- algo
+	- [ ] 톱니바퀴
+	- [X] devmatching3
+	- [X] 2022, devmatching coding test
+- minishell
+	- [ ] review
+- network
+	- [ ] 무선 이동 네트워크3
+	- [ ] 패킷의 생성 원리와 캡슐화
+- kernel
+	- [ ] 인터럽트
+
 ### 22.11.25(금)
 - algo
 	- [ ] 톱니바퀴(g5)
