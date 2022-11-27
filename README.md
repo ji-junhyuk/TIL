@@ -1,15 +1,35 @@
 ### 리드미를 작성하라
 
+### 22.11.28(월)
+- algo
+	- [ ] 주사위굴리기
+- minishell
+	- [ ] execute 구현 부 시작
+- network
+	- [ ] L2 스위치
+- Kernel
+	 - [ ] 주요 인터럽트
+- vim
+	- [ ] spectator
+	- [ ] nvimtree
+
 ### 22.11.27(일)
 - algo
-	- [ ] 톱니바퀴
+	- [X] 톱니바퀴
 - minishell
-	- [ ] review
+	- [X] review
 - network
-	- [ ] 무선 이동 네트워크3
-	- [ ] 패킷의 생성 원리와 캡슐화
+	- [X] 무선 이동 네트워크3
+		- + 강의 3개 다 보고 정리 OK 
+	- [X] 패킷의 생성 원리와 캡슐화
 - kernel
-	- [ ] 인터럽트
+	- [X] 인터럽트
+- vim
+	- [ ] vim spectator
+	- [ ] vim nvimtree
+	- [X] term
+		- CTRL+\CTRL+n.
+		- sp
 
 ### 22.11.26(토)
 ```
