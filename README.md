@@ -1,17 +1,33 @@
 ### 리드미를 작성하라
 
-### 22.11.28(월)
+### 22.11.29(화)
 - algo
-	- [ ] 주사위굴리기
-- minishell
-	- [ ] execute 구현 부 시작
+	- [ ] 트럭
+- 42
+	- minishell
+		- [ ] execute 구현 부 시작
+	- [ ] exam
 - network
-	- [ ] L2 스위치
-- Kernel
-	 - [ ] 주요 인터럽트
+	- [ ] IP헤더 형식ㅇ과 의미 요약
+ 
+- kernel
+	- [ ] 인터럽트를 알아야하는 이유
 - vim
 	- [ ] spectator
-	- [ ] nvimtree
+ 
+### 22.11.28(월)
+- algo
+	- [X] 주사위굴리기
+- minishell
+	- [ ] execute 구현 부 시작
+	- [X] philo algo
+- network
+	- [X] L2 스위치
+- Kernel
+	 - [X] 주요 인터럽트
+- vim
+	- [ ] spectator
+	- [X] nvimtree
 
 ### 22.11.27(일)
 - algo
