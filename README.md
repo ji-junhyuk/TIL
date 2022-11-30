@@ -1,15 +1,31 @@
 ### 리드미를 작성하라
 
+### 22.11.30(수)
+- algo
+	- [ ] 2178, 미로 탐색
+	- [ ] 16985, mazeeee
+- 42
+	- [ ] minishell
+		- [ ] execute
+- network
+	- [ ] IP헤더 형식과 의미 요약
+	- [ ] 1강 더
+- kernel
+	- [ ] 인터럽트를 알아야하는 이유
+	- [ ] 1강 더
+- vim
+	- [ ] spectator
+- github.io
+	- [ ] tag 설정 안깨지게
 ### 22.11.29(화)
 - algo
-	- [ ] 트럭
+	- [X] 트럭
 - 42
 	- minishell
-		- [ ] execute 구현 부 시작
-	- [ ] exam
+		- [X] execute 구현 부 시작
+	- [X] exam
 - network
-	- [ ] IP헤더 형식ㅇ과 의미 요약
- 
+	- [ ] IP헤더 형식과 의미 요약
 - kernel
 	- [ ] 인터럽트를 알아야하는 이유
 - vim
