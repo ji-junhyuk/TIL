@@ -1,16 +1,25 @@
 ### 리드미를 작성하라
 
+### 22.12.5(월)
+- algo
+	- [ ] BOJ, 곱셈
+	- [ ] 3190 뱀
+- network
+	- [ ] unicast, broadcast, multicast
+- Minishell
+	- [ ] 실행부 코드 시작 
+- kernel
+	- [ ] 인터럽트 벡터 분석
+
 ### 22.12.4(일)
 - algo
-	- [ ] 14503, 로봇청소기
+	- [X] 14503, 로봇청소기
 	- [ ] 3190, 뱀
 - network
-	- [ ] TCP 송수신 원리
-	- [ ] blog
-- Minishell
-	- [ ] 오늘은 꼭,,
+	- [X] TCP 송수신 원리
+	- [X] blog
 - kernel
-	- [ ] 인터럽트 컨텍스트에서 스케줄링을 하면 어떻게 될까?
+	- [X] 인터럽트 컨텍스트에서 스케줄링을 하면 어떻게 될까?
 - vim
 	- [ ] spectator
 
