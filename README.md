@@ -1,15 +1,26 @@
 ### 리드미를 작성하라
-
-### 22.12.5(월)
 - algo
-	- [ ] BOJ, 곱셈
+	- [ ] Z
 	- [ ] 3190 뱀
+	- [ ] softeer 코테
 - network
 	- [ ] unicast, broadcast, multicast
 - Minishell
 	- [ ] 실행부 코드 시작 
 - kernel
-	- [ ] 인터럽트 벡터 분석
+	- [ ] 인터럽트 벡터에서 푸시스택 확인
+
+### 22.12.5(월)
+- algo
+	- [X] BOJ, 곱셈
+	- [X] BOJ, 하노이
+	- [ ] 3190 뱀
+- network
+	- [ ] unicast, broadcast, multicast
+- Minishell
+	- [X] 실행부 코드 시작 
+- kernel
+	- [X] 인터럽트 벡터 분석
 
 ### 22.12.4(일)
 - algo
