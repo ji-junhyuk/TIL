@@ -1,17 +1,30 @@
 ### 리드미를 작성하라
+
+### 22.12.11(일)
+- algo
+	- [ ] programmers IPPE
+	- [ ] 스티커 붙이기
+	- [ ] 스타트와 링크
+- network
+	- [ ] subneting
+	- [ ] blog!
+- Minishell
+	- [ ] Makefile 예쁘게 만들어가자
+- Kernel
+	- [ ] 인터럽트 디스크립터
+	
 ### 22.12.10(토)
 - algo
-	- [ ] 연구소
-	- [ ] 감시
+	- [X] 연구소
+	- [X] 감시
 - network
-	- [ ] datagram
-	- [ ] blog!!
+	- [X] datagram
 - OS
-	- [ ] blog!!
+	- [X] blog!!
 - Minishell
-	- [ ] 실행부 마무리 못한 거 수정하기.
+	- [X] 실행부 마무리 못한 거 수정하기.
 - kernel
-	- [ ] 인터럽트 핸들러 등록시 플래그 설정
+	- [X] 인터럽트 핸들러 등록시 플래그 설정
 
 ### 22.12.9(금)
 - algo
