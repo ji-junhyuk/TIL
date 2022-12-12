@@ -1,17 +1,41 @@
 ### 리드미를 작성하라
 
+### 22.12.13(화)
+- algo
+	- [ ] 2048, easy
+	- [ ] 스타트와 링크
+- network
+	- [ ] PN
+	- [ ] blog!
+- Minishell
+	- [ ] 에러잡기(herdoc, subshell)
+	- [ ] export
+- Kernel
+	- [ ] 인터럽트는 언제 비활성화할까?
+
+### 22.12.12(월)
+- algo
+	- [X] 스티커 붙이기
+	- [ ] 스타트와 링크
+- network
+	- [X] 공유기 작동 원리
+- Minishell
+	- [X] 빌트인 
+- Kernel
+	- [X] 인터럽트 발생 횟수는 어떻게 저장할까
+
 ### 22.12.11(일)
 - algo
-	- [ ] programmers IPPE
+	- [X] programmers IPPE -> 22.12.18
 	- [ ] 스티커 붙이기
 	- [ ] 스타트와 링크
 - network
-	- [ ] subneting
-	- [ ] blog!
+	- [X] subneting
+	- [X] blog!
 - Minishell
 	- [ ] Makefile 예쁘게 만들어가자
 - Kernel
-	- [ ] 인터럽트 디스크립터
+	- [X] 인터럽트 디스크립터
 	
 ### 22.12.10(토)
 - algo
