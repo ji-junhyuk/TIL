@@ -1,17 +1,31 @@
 ### 리드미를 작성하라
 
+### 22.12.14(수)
+- algo
+	- [ ] 치킨 배달
+	- [ ] 경사로
+- network
+	- [ ] VPN
+	- [ ] HTTP(2/20)
+- Minishell
+	- [ ] 구현사항
+		- [ ] heredoc부모에서 미리 다 받아놓는 거 구현
+		- [ ] ls *일 때 expand를 한 경우에 체크해서 이를 2차원 배열에 넣게끔 구현
+- Kernel
+	- [ ] 인터럽트 후반부 기법 시작
+
 ### 22.12.13(화)
 - algo
-	- [ ] 2048, easy
-	- [ ] 스타트와 링크
+	- [X] 2048, easy
+	- [X] 스타트와 링크
 - network
-	- [ ] PN
-	- [ ] blog!
+	- [X] PN
+	- [X] OSI 7계층(3/20)
 - Minishell
-	- [ ] 에러잡기(herdoc, subshell)
-	- [ ] export
+	- [X] 에러잡기(herdoc, subshell)
+	- [X] export
 - Kernel
-	- [ ] 인터럽트는 언제 비활성화할까?
+	- [X] 인터럽트는 언제 비활성화할까?
 
 ### 22.12.12(월)
 - algo
