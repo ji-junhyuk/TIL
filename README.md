@@ -1,18 +1,32 @@
 ### 리드미를 작성하라
-
-### 22.12.15(목)
+### 22.12.16(금)
 - algo
-	- [ ] 경사로
+	- [X] 경사로
 	- [ ] 사다리조작
 	- [ ] 드래곤 커브
 - network
-	- [ ] ARP spoofing
-	- [ ] pipeline protocols
+	- [ ] 망분리 이야기
+	- [ ] TCP
 - Minishell
-	- [ ] heredoc부모에서 미리 다 받아놓는 거 구현
+	- [ ] export할 수 있으면 하기!
+	- [ ] leaks 잡기!
+	- [ ] directory별로 쪼개서 이슈에 올리기
+- Kernel
+	- [ ] IRQ와 IRQ 스레드(threaded IRQ)란
+
+### 22.12.15(목)
+- algo
+	- [X] 경사로
+	- [ ] 사다리조작
+	- [ ] 드래곤 커브
+- network
+	- [X] ARP spoofing
+	- [X] pipeline protocols
+- Minishell
+	- [X] heredoc부모에서 미리 다 받아놓는 거 구현
 	- [ ] export할 수 있으면 하기!
 - Kernel
-	- [ ] 인터럽트 후반부 기법을 적용하는 이유
+	- [X] 인터럽트 후반부 기법을 적용하는 이유
 
 ### 22.12.14(수)
 - algo
