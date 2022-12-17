@@ -1,4 +1,16 @@
 ### 리드미를 작성하라
+### 22.12.17(토)
+- algo
+	- [ ] 사다리조작
+	- [ ] 드래곤 커브
+- network
+	- [ ] 망분리 이야기
+	- [ ] TCP
+- Minishell
+	- [ ] 최종 디렉토리 구조 생각해보기!
+- Kernel
+	- [ ] IRQ와 IRQ 스레드(threaded IRQ)란
+
 ### 22.12.16(금)
 - algo
 	- [X] 경사로
@@ -8,8 +20,8 @@
 	- [ ] 망분리 이야기
 	- [ ] TCP
 - Minishell
-	- [ ] export할 수 있으면 하기!
-	- [ ] leaks 잡기!
+	- [X] export할 수 있으면 하기!
+	- [X] leaks 잡기!
 	- [ ] directory별로 쪼개서 이슈에 올리기
 - Kernel
 	- [ ] IRQ와 IRQ 스레드(threaded IRQ)란
