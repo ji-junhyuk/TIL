@@ -1,17 +1,30 @@
 ### 리드미를 작성하라
-### 22.12.19(월)
-- algo
-	- [ ] 드래곤 커브
+### 22.12.20(화)
+- algo 
 	- [ ] 야구 게임
 - network
 	- [ ] IP단편화
-	- [ ] SACK
+	- [ ] wireshark
 - Minishell
-	- [ ] 함수 쪼개기! 
+	- [ ] 1함수 쪼개기! 
 - Kernel
-	- [ ] irq 스레드 디버깅
+	- [ ] irq 스레드 깨우는 코드
 - blog
-	- [ ] TCP RDT
+	- [ ] 1TCP RDT
+
+### 22.12.19(월)
+- algo
+	- [X] 드래곤 커브
+	- [-] 야구 게임
+- network
+	- [X] IP단편화
+	- [X] SACK
+- Minishell
+	- [-] 함수 쪼개기! 
+- Kernel
+	- [X] irq 스레드 디버깅
+- blog
+	- [-] TCP RDT
 
 ### 22.12.18(일)
 - algo
