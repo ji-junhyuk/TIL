@@ -1,4 +1,33 @@
 ### 리드미를 작성하라
+	- todolist에 숫자는 밀린 날짜, 3되면 제일 먼저 처리!
+	 
+### 22.12.22(목)
+- algo
+	- [ ] 0큐빙(simulation)
+	- [ ] 0Mergesort:개념 + 11728
+- network
+	- [ ] 0IP단편화
+	- [ ] 0wireshark trace
+- Minishell
+	- [ ] 0main, execute, tokenize 함수 쪼개기
+- Kernel
+	- [ ] 0irq_thread() 함수
+- blog
+	- [ ] 0pipelined protocol
+
+### 22.12.21(수)
+- algo 
+	- [X] 야구 게임
+- network
+	- [X] IP단편화
+	- [X] wireshark
+- Minishell
+	- [X] 1함수 쪼개기! 
+- Kernel
+	- [X] irq 스레드 깨우는 코드
+- blog
+	- [X] 1TCP RDT
+
 ### 22.12.20(화)
 - algo 
 	- [ ] 야구 게임
