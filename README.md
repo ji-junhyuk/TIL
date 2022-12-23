@@ -1,34 +1,43 @@
 ### 리드미를 작성하라
 	- todolist에 숫자는 밀린 날짜, 3되면 제일 먼저 처리!
 
-### 22.12.23(금)
+### 22.12.24(토)
 - algo
 	- [ ] 1Mergesort:개념 + 11728
 	- [ ] 0Quicksort:개념 + 1Q
 	- [ ] 0인구이동(simulation)
 - network
-	- [ ] 1서브넷, 서브넷마스크, 서브넷팅
-	- [ ] 0poisoned reverse
-	- [ ] 0wireshark trace
+	- [ ] 2서브넷, 서브넷마스크, 서브넷팅
+	- [ ] 1poisoned reverse
+	- [ ] 0라우팅 알고리즘
 - Minishell
-	- [-] 0main, execute, tokenize 함수 쪼개기
-- Kernel
-	- [ ] 0soft_irq
-- blog
-	- [ ] 1pipelined protocol
-
-### 22.12.24(토)
-- algo
-- network
-- Minishell
+	- [ ] 함수 description
 - kernel
+	- [ ] Soft irq 전체 흐름  
 - blog
+	- [ ] 2pipelined protocol
 	- [ ] 멀티프로세서 스케줄링
 	- [ ] 주소공간의 개념
 	- [ ] 메모리관리 api
 	- [ ] 주소 변환의 원리
 	- [ ] 세그맨테이션
 	- [ ] 빈공간관리
+
+### 22.12.23(금)
+- algo
+	- [-] 1Mergesort:개념 + 11728
+	- [-] 0Quicksort:개념 + 1Q
+	- [-] 0인구이동(simulation)
+- network
+	- [-] 1서브넷, 서브넷마스크, 서브넷팅
+	- [-] 0poisoned reverse
+	- [X] 0wireshark trace
+- Minishell
+	- [-] 0main, execute, tokenize 함수 쪼개기
+- Kernel
+	- [X] 0soft_irq
+- blog
+	- [-] 1pipelined protocol
 	 
 ### 22.12.22(목)
 - algo
