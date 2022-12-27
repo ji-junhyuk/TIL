@@ -1,19 +1,116 @@
 ### 리드미를 작성하라
 	- todolist에 숫자는 밀린 날짜, 3되면 제일 먼저 처리!
+### 22.12.28(수)
+- algo 
+	- [ ] 0Study: 1463, 1로 만들기(s3)
+	- [ ] 0simul: 16236, 아기 상어(g3)
+- [ ] Minishell retry
+
+### 22.12.27(화)
+- algo
+	- [X] 0Study: 11652, 카드(s4)
+	- [X] 0simul: 16236, 아기 상어(g3)
+- [X] Minishell 평가
+ 
+### 22.12.26(월)
+- algo
+	- [X] 0Study: 1431, 시리얼 번호(s3)
+	- [X] 1simul: 16235, 나무 재테크(g3)
+- network
+	- [ ] DHCP
+- Minishell
+	- [ ] 0함수 description
+- kernel
+	- [ ] 
+- blog
+	- [ ] 2pipelined protocol
+	- [ ] 멀티프로세서 스케줄링
+	- [ ] 주소공간의 개념
+	- [ ] 메모리관리 api
+	- [ ] 주소 변환의 원리
+	- [ ] 세그맨테이션
+	- [ ] 빈공간관리
+### 51주차
+- algo
+	- [X] 0Study: 1431, 시리얼 번호(s3)
+	- [X] 1simul: 16235, 나무 재테크(g3)
+	- [ ] 
+	- [X] 0Study: 11652, 카드(s4)
+	- [ ] 0simul: 16236, 아기 상어(g3)
+	- [ ] 
+	- [ ] 0Study: 1463, 1로 만들기(s3)
+	- [ ] 1simul: 16236, 아기 상어(g3)
+	- [ ] 
+	- [ ] 0Study: 9095, 1,2,3 더하기(s3)
+	- [ ] 0simul: 17140, 이차원 배열과 연산(g4)
+	- [ ] 
+	- [ ] 0Study: 2579, 계단 오르기(s3)
+	- [ ] 1simul: 17140, 이차원 배열과 연산(g4)
+	- [ ] 
+	- [ ] 0Study: 1149, RGB거리(s1)
+	- [ ] 0simul: 17141, 연구소 2(g4)
+- network
+	- [ ] DHCP
+	- [ ] 도메인과 DNS
+	- [ ] MAC주소, ARP
+	- [ ] 웹 사이트 접속 과정
+	- [ ] NAC(Network Access Control)
+	- [ ] CDN(contents Delivery network)
+- 42seoul
+	- [ ] minishell 평가받고
+	- [ ] philo start! (mandatory끝내기!)
+- kernel
+	- [ ] 매일 조금씩 보기
+- blog
+	- OS
+		- [ ] 3개 포스팅
+	- Network
+		- [ ] 3개 포스팅
+
+### 22.12.25(일)
+- algo
+	- [X] 2Mergesort:개념 + 11728
+	- [X] 1Quicksort:개념 + 1Q
+	- [X] 1인구이동(simulation)
+- network
+	- [X] 3서브넷, 서브넷마스크, 서브넷팅
+	- [X] 2poisoned reverse
+	- [X] 1라우팅 알고리즘
+	- [X] 0네이글 알고리즘
+- Minishell
+	- [ ] 1함수 description
+- kernel
+	- [ ] 1Soft irq 전체 흐름  
+	- [ ] 0Soft irq 컨텍스트 확인
+- blog
+	- OS
+		- [ ] 1멀티프로세서 스케줄링
+		- [ ] 1주소공간의 개념
+		- [ ] 1메모리관리 api
+		- [ ] 1주소 변환의 원리
+		- [ ] 1세그맨테이션
+		- [ ] 1빈공간관리
+	- Network
+		- [ ] 3pipelined protocol
+		- [ ] 0TCP
+		- [ ] 0TCP 혼잡제어
+		- [ ] 0IP 단편화
+		- [ ] 0IP, IP 클래스, IPV4, IPV6
+		- [ ] 0subnet, subnet mask, subneting
 
 ### 22.12.24(토)
 - algo
 	- [ ] 1Mergesort:개념 + 11728
 	- [ ] 0Quicksort:개념 + 1Q
-	- [ ] 0인구이동(simulation)
+	- [X] 1인구이동(simulation)
 - network
 	- [ ] 2서브넷, 서브넷마스크, 서브넷팅
 	- [ ] 1poisoned reverse
 	- [ ] 0라우팅 알고리즘
 - Minishell
-	- [ ] 함수 description
+	- [ ] 0함수 description
 - kernel
-	- [ ] Soft irq 전체 흐름  
+	- [ ] 0Soft irq 전체 흐름  
 - blog
 	- [ ] 2pipelined protocol
 	- [ ] 멀티프로세서 스케줄링
