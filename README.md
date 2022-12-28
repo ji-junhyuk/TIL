@@ -2,15 +2,19 @@
 	- todolist에 숫자는 밀린 날짜, 3되면 제일 먼저 처리!
 ### 22.12.28(수)
 - algo 
-	- [ ] 0Study: 1463, 1로 만들기(s3)
-	- [ ] 0simul: 16236, 아기 상어(g3)
-- [ ] Minishell retry
+	- [X] 0Study: 1463, 1로 만들기(s3)
+	- [X] 0simul: 16236, 아기 상어(g3)
+- [-] Minishell retry
+- kernel
+	- [X] Soft IRQ 서비스 핸들러 실습
 
 ### 22.12.27(화)
 - algo
 	- [X] 0Study: 11652, 카드(s4)
 	- [X] 0simul: 16236, 아기 상어(g3)
 - [X] Minishell 평가
+- kernel
+	- [ ] Soft IRQ 서비스는 어떻게 등록할까
  
 ### 22.12.26(월)
 - algo
@@ -19,9 +23,9 @@
 - network
 	- [ ] DHCP
 - Minishell
-	- [ ] 0함수 description
+	- [X] 0함수 description
 - kernel
-	- [ ] 
+	- [X] Soft IRQ 서비스란
 - blog
 	- [ ] 2pipelined protocol
 	- [ ] 멀티프로세서 스케줄링
@@ -30,16 +34,17 @@
 	- [ ] 주소 변환의 원리
 	- [ ] 세그맨테이션
 	- [ ] 빈공간관리
+
 ### 51주차
 - algo
 	- [X] 0Study: 1431, 시리얼 번호(s3)
 	- [X] 1simul: 16235, 나무 재테크(g3)
 	- [ ] 
 	- [X] 0Study: 11652, 카드(s4)
-	- [ ] 0simul: 16236, 아기 상어(g3)
+	- [X] 0simul: 16236, 아기 상어(g3)
 	- [ ] 
-	- [ ] 0Study: 1463, 1로 만들기(s3)
-	- [ ] 1simul: 16236, 아기 상어(g3)
+	- [X] 0Study: 1463, 1로 만들기(s3)
+	- [X] 1simul: 16236, 아기 상어(g3)
 	- [ ] 
 	- [ ] 0Study: 9095, 1,2,3 더하기(s3)
 	- [ ] 0simul: 17140, 이차원 배열과 연산(g4)
@@ -78,10 +83,10 @@
 	- [X] 1라우팅 알고리즘
 	- [X] 0네이글 알고리즘
 - Minishell
-	- [ ] 1함수 description
+	- [X] 1함수 description
 - kernel
-	- [ ] 1Soft irq 전체 흐름  
-	- [ ] 0Soft irq 컨텍스트 확인
+	- [X] 1Soft irq 전체 흐름  
+	- [X] 0Soft irq 컨텍스트 확인
 - blog
 	- OS
 		- [ ] 1멀티프로세서 스케줄링
